@@ -1,0 +1,3 @@
+# DynamicDataSource
+## 动态多数据源工具类，基于Spring AbstractRoutingDataSource
+#### 偶发性出现 `Cannot determine target DataSource for lookup key [" + lookupKey + "]`异常，异常抛出点位于`org.springframework.jdbc.datasource.lookup.AbstractRoutingDataSource.determineTargetDataSource()`,未排除出原因，已经自闭...
